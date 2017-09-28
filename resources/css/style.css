@@ -69,16 +69,12 @@ nav span {
   height: 30rem;
 }
 
-.banner .flex {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .slogan {
   background-color: White;
   display: inline-block;
+  float: right;
   position: relative;
-  top: 10rem;
+  top: 14rem;
   right: -2rem;
 }
 
