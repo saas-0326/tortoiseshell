@@ -87,7 +87,7 @@ nav span {
 
 /* Benefits Section Styles */
 
-.benefits {
+.flex {
   display: flex;
   justify-content: center;
 }
@@ -112,4 +112,38 @@ figure img {
 
 figure figcaption {
   text-align: center;
+}
+
+
+/* Additional Information Section Styles */
+
+.additional {
+  width: 35%;
+  padding: 0 2.5%;
+  margin-bottom: 5rem;
+}
+
+.additional h4 {
+  background-color: CadetBlue;
+  font-size: 1rem;
+  font-weight: bold;
+  color: White;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+
+/* Footer Section Styles */
+
+footer {
+  background-color: Azure;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem;
+  margin-left: 3rem;
 }
